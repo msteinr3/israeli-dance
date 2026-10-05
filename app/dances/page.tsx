@@ -1,6 +1,6 @@
 import Link from "next/link";
-import type { Markid } from "@/data/markidim";
-import type { Dance } from "@/data/dances";
+import type { Markid } from "@/types/markid";
+import type { Dance } from "@/types/dance";
 import { commonStyles } from "@/styles/common";
 import { supabase } from "@/lib/supabase";
 import DanceSearch from "@/components/DanceSearch";

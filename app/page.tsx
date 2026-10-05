@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { usefulLinks } from "@/data/usefulLinks";
+import { usefulLinks } from "@/content/usefulLinks";
 import { colors } from "@/styles/colors";
 import { commonStyles } from "@/styles/common";
 import Image from "next/image";

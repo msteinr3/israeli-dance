@@ -1,6 +1,6 @@
 import Link from "next/link";
-import type { Markid } from "@/data/markidim";
-import type { Place } from "@/data/places";
+import type { Markid } from "@/types/markid";
+import type { Place } from "@/types/place";
 import { commonStyles } from "@/styles/common";
 import { supabase } from "@/lib/supabase";
 import PlaceSearch from "@/components/PlaceSearch";

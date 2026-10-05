@@ -1,8 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import type { Markid } from "@/data/markidim";
-import type { Dance } from "@/data/dances";
+import type { Markid } from "@/types/markid";
+import type { Dance } from "@/types/dance";
 import { colors } from "@/styles/colors";
 import { commonStyles } from "@/styles/common";
 

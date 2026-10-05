@@ -1,8 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import type { Markid } from "@/data/markidim";
-import type { Place } from "@/data/places";
+import type { Markid } from "@/types/markid";
+import type { Place } from "@/types/place";
 import { colors } from "@/styles/colors";
 import { commonStyles } from "@/styles/common";
 

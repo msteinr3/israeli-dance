@@ -3,9 +3,9 @@
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { FormEvent, useEffect, useState } from "react";
-import { danceTypes } from "@/data/dances";
-import { danceEventTypes } from "@/data/places";
-import type { Markid } from "@/data/markidim";
+import { danceTypes } from "@/types/dance";
+import { danceEventTypes } from "@/types/place";
+import type { Markid } from "@/types/markid";
 import { supabase } from "@/lib/supabase";
 import { colors } from "@/styles/colors";
 import { commonStyles } from "@/styles/common";
