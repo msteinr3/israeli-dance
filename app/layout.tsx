@@ -41,6 +41,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             <Link href="/about" style={commonStyles.link}>
               About
             </Link>
+
+            <Link href="/admin" style={commonStyles.link}>
+              Admin
+            </Link>
           </div>
         </nav>
 
